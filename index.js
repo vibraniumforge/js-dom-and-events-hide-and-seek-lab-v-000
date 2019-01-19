@@ -7,9 +7,13 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  const y = document.getElementById('grand-node');
-  const z = y.children[0];
-  return z;
+  let node = document.getElementById('grand-node');
+  let nodeChild = node.children[0];
+  while (nodeChild) {
+    node=nodeChild;
+    nodeChild=node.children[0];
+  }
+  return node;
 }
 
 function increaseRankBy(n) {
