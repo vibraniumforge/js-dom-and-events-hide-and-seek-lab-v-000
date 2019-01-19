@@ -18,6 +18,6 @@ function deepestChild() {
 
 function increaseRankBy(n) {
   let int=parseInt(n, 10)
-  const x = document.querySelectorAll(".ranked-list");
+  rankedLists = document.querySelectorAll(".ranked-list");
 
 }
