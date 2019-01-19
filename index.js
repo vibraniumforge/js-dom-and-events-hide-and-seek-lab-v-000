@@ -6,11 +6,12 @@ function nestedTarget() {
   return document.getElementById("nested").querySelector(".target");
 }
 
-function deepestChild() {
-
+function deepestChild(x) {
+  return document.getElementsByTagName(x)[6];
 }
 
 function increaseRankBy(n) {
   let int=parseInt(n, 10)
-  document.querySelectorAll(n);
+  const x = document.querySelectorAll(".ranked-list");
+
 }
