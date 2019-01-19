@@ -7,7 +7,7 @@ function nestedTarget() {
 }
 
 function deepestChild(x) {
-  const y = document.getElementsByTagName(x)[0];
+  const y = document.getElementbyId(grand-node);
   const z = y.children[6];
   return z;
 }
