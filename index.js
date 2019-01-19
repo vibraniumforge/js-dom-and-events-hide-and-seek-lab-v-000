@@ -6,9 +6,9 @@ function nestedTarget() {
   return document.querySelector("nested .target");
 }
 
-function deepestChild(x) {
+function deepestChild() {
   const y = document.getElementbyId(grand-node);
-  const z = y.children[6];
+  const z = y.children[0];
   return z;
 }
 
