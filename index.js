@@ -22,7 +22,7 @@ function increaseRankBy(n) {
   for (let i=0; i< rankedLists.length; i++) {
     let children=rankedLists[i].children;
     for (let j=0; j< children.length; j++) {
-      children[j].innerHTML=children[j].innerHTML+int;
+      children[j].innerHTML=parseInt(children[j].innerHTML, 10)+int;
     }
   }
 }
